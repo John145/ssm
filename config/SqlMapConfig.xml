@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration 
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 给包下面所有类设置别名 -->
+	<typeAliases>
+		<package name="cn.jxufe.po"/>
+	</typeAliases>
+	
+	<!-- 扫描映射文件
+			因为spring配置文件中进行了批量扫描，所以可以去掉
+	 -->
+<!-- 	<mappers> -->
+<!-- 		<package name="cn.jxufe.mapper"/> -->
+<!-- 	</mappers> -->
+</configuration>
