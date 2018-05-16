@@ -7,8 +7,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import cn.juxfe.service.impl.ItemService;
 import cn.jxufe.po.Item;
+import cnjxufe.service.impl.ItemService;
 
 @Controller
 @RequestMapping("/item")

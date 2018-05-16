@@ -1,4 +1,4 @@
-package cn.juxfe.service.impl;
+package cnjxufe.service.impl;
 
 import java.util.List;
 
