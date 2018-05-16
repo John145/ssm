@@ -47,7 +47,7 @@
 	</bean>
 	
 	<!-- 配置service -->
-	<bean id="itemService" class="cn.juxfe.service.impl.ItemServiceImpl"></bean>
+	<bean id="itemService" class="cnjxufe.service.impl.ItemServiceImpl"></bean>
 	
 	<!-- 创建事务控制 -->
 	<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
